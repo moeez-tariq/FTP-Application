@@ -26,19 +26,25 @@ Follow these steps to run the project:
 
 ## FTP Commands
 
-- **USER username:** Identifies the user trying to login to the FTP server. Used for authentication.
+1. **USER username:** Identifies the user trying to login to the FTP server. Used for authentication.
 
-- **PASS password:** Authenticates the user with the provided password.
+2. **PASS password:** Authenticates the user with the provided password.
 
-- **STOR filename:** Uploads a local file named filename from the current client directory to the current server directory.
+3. **STOR filename:** Uploads a local file named filename from the current client directory to the current server directory.
 
 - **RETR filename:** Downloads a file named filename from the current server directory to the current client directory.
 
 - **LIST:** Lists all files under the current server directory.
 
+- **!LIST:** Lists all files under the current client directory.
+
 - **CWD foldername:** Changes the current server directory.
 
+- **!CWD foldername:** Changes the current client directory.
+
 - **PWD:** Displays the current server directory.
+
+- **!PWD:** Displays the current client directory.
 
 - **QUIT:** Quits the FTP session and closes the control TCP connection.
 

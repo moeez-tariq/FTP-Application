@@ -32,21 +32,21 @@ Follow these steps to run the project:
 
 3. **STOR filename:** Uploads a local file named filename from the current client directory to the current server directory.
 
-- **RETR filename:** Downloads a file named filename from the current server directory to the current client directory.
+4. **RETR filename:** Downloads a file named filename from the current server directory to the current client directory.
 
-- **LIST:** Lists all files under the current server directory.
+5. **LIST:** Lists all files under the current server directory.
 
-- **!LIST:** Lists all files under the current client directory.
+6. **!LIST:** Lists all files under the current client directory.
 
-- **CWD foldername:** Changes the current server directory.
+7. **CWD foldername:** Changes the current server directory.
 
-- **!CWD foldername:** Changes the current client directory.
+8. **!CWD foldername:** Changes the current client directory.
 
-- **PWD:** Displays the current server directory.
+9. **PWD:** Displays the current server directory.
 
-- **!PWD:** Displays the current client directory.
+10. **!PWD:** Displays the current client directory.
 
-- **QUIT:** Quits the FTP session and closes the control TCP connection.
+11. **QUIT:** Quits the FTP session and closes the control TCP connection.
 
 ## Academic Use Notice
 
